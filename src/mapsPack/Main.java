@@ -9,8 +9,6 @@ public class Main {
     public static void main(String[] args) {
         Country greatBritain = new Country();
 
-        greatBritain.loadTowns("London, Birmingham, Cambridge, Oxford, Eastbourne, Manchester," +
-                "Liverpool, Glasgow, Leeds, Sheffield, Nottingham, Leicester");
         greatBritain.loadLinks(
                 "London - Birmingham - 190 - 130 - false - false\n" +
                         "London - Cambridge - 98 - 90 - false - false\n" +

@@ -9,11 +9,9 @@ public class Country {
         towns = new HashSet<>();
     }
 
-    private void addTown(Town town){
-        towns.add(town);
-    }
-
     private void linkTowns(String from, String to, Road road){
+        towns.add(new Town(from));
+        towns.add(new Town(to));
         Town t1 = findTown(from);
         Town t2 = findTown(to);
         if (t1 != null && t2 != null){
@@ -29,13 +27,6 @@ public class Country {
                             Integer.parseInt(data[3].trim()),
                             Boolean.parseBoolean(data[4].trim().toLowerCase()),
                             Boolean.parseBoolean(data[5].trim().toLowerCase())));
-        }
-    }
-
-    public void loadTowns(String input){
-        String[] data = input.split(",");
-        for (String str : data){
-            this.addTown(new Town(str.trim()));
         }
     }
 
