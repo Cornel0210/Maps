@@ -8,8 +8,9 @@ import java.util.Map;
 public class Main {
     public static void main(String[] args) {
         Country greatBritain = new Country();
+        greatBritain.loadLinks(FileInput.getInstance().getInput());
 
-        greatBritain.loadLinks(
+        /*greatBritain.loadLinks(
                 "London - Birmingham - 190 - 130 - false - false\n" +
                         "London - Cambridge - 98 - 90 - false - false\n" +
                         "Cambridge - Birmingham - 160 - 110 - false - false\n" +
@@ -25,7 +26,7 @@ public class Main {
                         "Leeds - Sheffield - 57 - 90 - false - false\n" +
                         "Sheffield - Nottingham- 72 - 90 - false - false\n" +
                         "Leicester - Nottingham - 43 - 90 - false - false\n" +
-                        "Leicester - Birmingham - 70 - 90 - false - true\n");
+                        "Leicester - Birmingham - 70 - 90 - false - true\n");*/
 
         greatBritain.print();
         System.out.println("----------------------------------------------------------------");

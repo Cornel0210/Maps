@@ -1,0 +1,16 @@
+London - Birmingham - 190 - 130 - false - false
+London - Cambridge - 98 - 90 - false - false
+Cambridge - Birmingham - 160 - 110 - false - false
+Cambridge - Oxford - 164- 90 - false - false
+Birmingham - Oxford - 130 - 90 - false - false
+Oxford - London - 96 - 90 - false - false
+London - Eastbourne - 135 - 90 - false - false
+Birmingham - Manchester - 138 - 90 - false - true
+Manchester - Liverpool - 56 - 90 - false - false
+Manchester - Glasgow - 347 - 90 -  false - true
+Liverpool - Glasgow - 352 - 90 - false - false
+Manchester - Leeds - 70 - 90 - false - false
+Leeds - Sheffield - 57 - 90 - false - false
+Sheffield - Nottingham- 72 - 90 - false - false
+Leicester - Nottingham - 43 - 90 - false - false
+Leicester - Birmingham - 70 - 90 - false - true
