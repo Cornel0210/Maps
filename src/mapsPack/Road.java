@@ -32,7 +32,7 @@ public class Road {
     @Override
     public String toString() {
         return "Road{" +
-                "distance=" + distance + "km " +
+                "distance=" + distance + "km" +
                 ", speedLimit=" + speedLimit + "km/h" +
                 ", isClosed=" + isClosed +
                 ", inMaintenance=" + inMaintenance +
